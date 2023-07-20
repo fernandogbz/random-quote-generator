@@ -27,3 +27,7 @@ body {
   font-weight: 600;
   text-align: center;
 }
+
+.wrapper .content {
+  margin: 35px 0;
+}
