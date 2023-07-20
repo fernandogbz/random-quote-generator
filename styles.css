@@ -90,11 +90,17 @@ body {
   margin: 0 5px;
   height: 47px;
   width: 47px;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   border: 2px solid #377dff;
+}
+
+.features ul li:hover {
+  color: #fff;
+  background-color: #377dff;
 }
 
 .features button {
