@@ -45,6 +45,11 @@ body {
   margin: 3px 10px 0 0;
 }
 
+.quote-area i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px ;
+}
 
 .quote-area .quote {
   font-size: 22px;
