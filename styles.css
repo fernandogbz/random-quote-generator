@@ -41,6 +41,11 @@ body {
   font-size: 15px;
 }
 
+.quote-area i:first-child {
+  margin: 3px 10px 0 0;
+}
+
+
 .quote-area .quote {
   font-size: 22px;
   text-align: center;
