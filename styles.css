@@ -59,6 +59,13 @@ body {
 
 .content .author {
   display: flex;
+  font-size: 18px;
+  font-style: italic;
   margin-top: 20px;
   justify-content: flex-end;
+}
+
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: monospace;
 }
