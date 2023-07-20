@@ -73,3 +73,10 @@ body {
 .wrapper .buttons {
   border-top: 1px solid #ccc;
 }
+
+.buttons .features {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
