@@ -36,3 +36,9 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.quote-area .quote {
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
