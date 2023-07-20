@@ -56,3 +56,9 @@ body {
   text-align: center;
   word-break: break-all;
 }
+
+.content .author {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
