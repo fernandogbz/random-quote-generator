@@ -37,6 +37,10 @@ body {
   justify-content: center;
 }
 
+.quote-area i {
+  font-size: 15px;
+}
+
 .quote-area .quote {
   font-size: 22px;
   text-align: center;
