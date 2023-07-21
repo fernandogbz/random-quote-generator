@@ -8,6 +8,7 @@ function randomQuote() {
   fetch("https://api.quotable.io/random").then(res => res.json()).then(result => {
     console.log(result);
     quoteText.innerText = result.content; // Shows quote
+    authorName.innerText = result.author; // Shows author
   });
 }
 
