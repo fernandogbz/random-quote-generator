@@ -10,6 +10,7 @@ function randomQuote() {
     console.log(result);
     quoteText.innerText = result.content; // Shows quote
     authorName.innerText = result.author; // Shows author
+    quoteBtn.innerText = "New Quote";
   });
 }
 
