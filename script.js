@@ -33,7 +33,8 @@ copyBtn.addEventListener("click", () => {
 })
 
 twitterBtn.addEventListener("click", () => {
-  
+  let tweetUrl = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
+  window.open(tweetUrl, "_blank"); // opening a new twitter tab with passing quote in the url
 })
 
 quoteBtn.addEventListener("click", randomQuote);
