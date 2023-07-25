@@ -20,4 +20,8 @@ function randomQuote() {
   });
 }
 
+soundBtn.addEventListener("click", () => {
+  
+})
+
 quoteBtn.addEventListener("click", randomQuote);
