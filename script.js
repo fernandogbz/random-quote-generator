@@ -26,4 +26,10 @@ soundBtn.addEventListener("click", () => {
   speechSynthesis.speak(utterance); // speak method of speechSynthesis speaks the utterance
 })
 
+copyBtn.addEventListener("click", () => {
+  //copying the quote text on copyBtn click
+  // writeText() property writes the specified text string to the system clipboard
+  navigator.clipboard.writeText(quoteText.innerText);
+})
+
 quoteBtn.addEventListener("click", randomQuote);
