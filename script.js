@@ -2,7 +2,8 @@ const quoteText = document.querySelector(".quote"),
 authorName = document.querySelector(".author .name"),
 quoteBtn = document.querySelector("button"),
 soundBtn = document.querySelector(".sound"),
-copyBtn = document.querySelector(".copy");
+copyBtn = document.querySelector(".copy"),
+twitterBtn = document.querySelector(".twitter");
 
 
 // random quote function
