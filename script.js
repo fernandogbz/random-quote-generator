@@ -32,4 +32,8 @@ copyBtn.addEventListener("click", () => {
   navigator.clipboard.writeText(quoteText.innerText);
 })
 
+twitterBtn.addEventListener("click", () => {
+  
+})
+
 quoteBtn.addEventListener("click", randomQuote);
