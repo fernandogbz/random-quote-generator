@@ -7,3 +7,5 @@ Technologies:
 • CSS
 <br>
 • JavaScript
+
+Preview: 
