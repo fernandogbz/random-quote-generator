@@ -6,3 +6,4 @@ Technologies:
 <br>
 • CSS
 <br>
+• JavaScript
