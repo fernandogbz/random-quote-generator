@@ -9,5 +9,3 @@ Technologies:
 • JavaScript
 
 Preview: 
-<br>
-
